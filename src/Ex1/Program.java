@@ -6,7 +6,8 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        PrintService ps = new PrintService();
+        PrintService<String> ps = new PrintService<>();
+        // colocamos o tipo que desejarmos na linha acima e fazer as alterações no decorrer do código
 
         System.out.print("How many values? ");
         int n = sc.nextInt();
